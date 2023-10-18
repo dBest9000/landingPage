@@ -1,3 +1,38 @@
+body {
+    height: 100vh;
+}
+
+/**This section will be focused on the header section 10-18-2023**/
+.header {
+    background-color: #1F2937;
+}
+
+.head {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+
+}
+
+.headsec, a {
+   font-size: 18px;
+   color: #E5E7EB; 
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+
+
+
+
+
+
+
+
 .teddy {
     width: 100px;
 }
