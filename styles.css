@@ -5,14 +5,26 @@ body {
 /**This section will be focused on the header section 10-18-2023**/
 .header {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
 }
 
 .head {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-
+    
 }
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+}
+
 
 .headsec, a {
    font-size: 18px;
@@ -24,15 +36,25 @@ body {
     color: #F9FAF8;
 }
 
+/**I will be adding a color to the background as well to the sign up buttons 10-25-2023**/
+.signup, button {
+    background-color: #3882F6;
+}
+
+/**This CSS will foucs on the buttons look 10-25-2023**/
+.btnOne, .btnTwo {
+    color: white;
+}
+
+.btnTwo {
+    border-style: solid;
+    border-color: white;
+}
 
 
 
 
-
-
-
-
-
+/**This is temporary I think, Im not sure what to do with the image yet 10-25-2023**/
 .teddy {
     width: 100px;
 }
