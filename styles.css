@@ -3,6 +3,12 @@ body {
 }
 
 /**This section will be focused on the header section 10-18-2023**/
+
+.headCont {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 .header {
     background-color: #1F2937;
     display: flex;
@@ -13,7 +19,6 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    
 }
 
 .nav {
@@ -23,12 +28,13 @@ body {
 
 .links {
     display: flex;
+    gap: 20px;
 }
-
 
 .headsec, a {
    font-size: 18px;
    color: #E5E7EB; 
+
 }
 
 .logo {
@@ -44,6 +50,7 @@ body {
 /**This CSS will foucs on the buttons look 10-25-2023**/
 .btnOne, .btnTwo {
     color: white;
+
 }
 
 .btnTwo {
@@ -57,4 +64,8 @@ body {
 /**This is temporary I think, Im not sure what to do with the image yet 10-25-2023**/
 .teddy {
     width: 100px;
+}
+
+.headTeddy {
+    width: 200px;
 }
